@@ -1,0 +1,94 @@
+[000000] codo_init
+[000000]   platform: Windows
+[000000]   Found config.txt
+[000000]   
+[000000]     01 window_size 0 0 // window width, height
+[000000]     02 screen_size 0 0 // screen width, height (stretched to window) 
+[000000]     03 show_fps 0 // Draw frames per second in the corner
+[000000]     04 windowed 1 // 1 to start up in windowed mode
+[000000]     05 window_position -1 -1 // x and y position of window (-1, -1 to let the window manager decide)
+[000000]     new window position: -1, -1
+[000000]     06 frameless 0 // 1 to use a window with no frame
+[000000]     07 fullscreen_method 1 // 0 maximized window (linux)  1 borderless desktop-sized window  2 hardware fullscreen (warning: erratic behaviour under some drivers)
+[000000]     08 foreground_sleep_ms 2 // number of milliseconds to sleep each frame. Try 10 to conserve battery power
+[000000]     09 background_sleep_ms 10 // number of milliseconds to sleep each frame when running in the background
+[000000]     10 sessions 4 // number of times program has been run
+[000000]     11 rmb_key 0 // 0 for none  226 for LALT
+[000000]     12 desktop_path 
+[000000]     13 read_controllers_in_background 0
+[000000]     14 sound_volume 256 // 0..256
+[000000]     15 music_volume 256 // 0..256
+[000000]     16 mix_buffer_size 1024
+[000000]     17 map_scancodes 
+[000000]     18 version 0.2.5c
+[000000]     19 volume 256
+[000000]     20 root_path C:/Users/tahim/AppData/Roaming/pico-8/carts/
+[000000]     21 cdata_path C:/Users/tahim/AppData/Roaming/pico-8/cdata/
+[000000]     22 joystick_index 0
+[000000]     23 button_keys 0 0 0 0 0 0 0 0 0 0 0 0 0 
+[000000]     24 live_notes 0
+[000000]     25 cursor_snap 0
+[000000]     26 gui_theme 0
+[000000]     27 screenshot_scale 3
+[000000]     28 gif_scale 3
+[000000]     29 gif_len 16
+[000000]     30 gif_reset_mode 0
+[000000]     31 host_framerate_control 1
+[000000]     32 splore_filter 0
+[000000]     33 tab_width 1
+[000000]     34 draw_tabs 0
+[000000]     35 record_activity_log 1
+[000000]     36 allow_function_keys 1
+[000000]     37 check_for_cart_updates 1
+[000000]     38 auto_hide_mouse_cursor 5
+[000000]     39 aggressive_backups 0
+[000000]     40 periodic_backups 20
+[000000]     41 transform_screen 0
+[000000]     42 gfx_grid_lines 0
+[000000]   
+[000000]   codo_system_init
+[000037]   Compiled against SDL version: 2.0.2
+[000037]   Linked against SDL version:   2.0.9
+[000037]   Current video driver: windows
+[000037]   codo_reset_timer
+[000037]   codo_gui_init
+[000037]   codo_keys_init
+[000037]   codo_text_init
+[000037]   codo_video_init
+[000037]   codo_mouse_init
+[000037]   codo_joystick_init
+[000038]   Reading controller mappings: C:/Users/tahim/AppData/Roaming/pico-8/sdl_controllers.txt
+[000038]   searching for joysticks
+[000038]     found 0 joysticks
+[000038]   ok
+[000038] ok
+[000047] codo_load_pod: C:/Users/tahim/Downloads/pico-8_0.2.5c_windows/pico-8/pico8.dat ok 
+[000049] codo_set_screen 128 128 8 100
+[000049]  window size: 640 540
+[000110]   setting filter to nearest (screen_mode 0  back page width: 128)
+  renderer direct3d:
+   flags: 0x0000000E ( |  | )
+   texture formats (3): ARGB8888, YV12, IYUV
+   max texture size: 8192x8192
+[000112]  desktop size: 1536 864
+[000112] ok
+[000115] codo_sound_init mix_buffer_size: 1024
+[000115] codo_sound_init
+[000115] SDL_INIT_AUDIO ok
+[000718] SDL_OpenAudio ok
+[000718]  freq:22050
+ channels:1
+[000718] Built-in audio drivers: 0 wasapi 1 directsound 2 winmm 3 disk 4 dummy
+[000718] Current audio driver: wasapi
+[000718] splore_init
+[262474] window closed (14)
+[262474] codo_exit
+[262474]   cmusic_stop
+[262474]   codo_main_exit
+[262476]   codo_config_save
+[262477]   codo_sound_exit
+[262477]   codo_video_exit
+[262498]   codo_joystick_exit
+[262499]   codo_system_exit
+[262499]   codo_items_created: 14637
+[262499] ok

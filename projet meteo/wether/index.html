@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="./style.css"/>
+    <title>Meteo API</title>
+
+</head>
+<body>
+    <div class = "container">
+        <div class="row justify-content-center">
+      <form >
+        <div class="form_group">
+     <input type="text",class="form-control"  id="inputcity">
+        </div>
+
+        <button type="submit" class="btn btn-info btn-block">
+                Recherche
+        </button>
+      </form>
+        </div>
+        <div class="col-12 col-dm-6 d-flex justify-content-center my-3">
+        <div class="box-container">
+          <div id="city" class="box"></div>
+           <div id="temp" class="box"></div>
+           <div id="humidity" class="box"></div>
+           <div id="wind" class="box"></div>
+        </div>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+body  {
+    background-image: url(../img/photo08.jpg);
+ background-size: cover;
+ background-repeat: no-repeat;
+ min-height:100vh ;
+}
+
+.box-container{
+    width: 300px;
+    height:300px ;
+    display: flex;
+    flex-wrap: wrap;
+}
+.box{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size:1.5rem ;
+    color: aqua;
+}
+
+
+#city{
+    background-color: cornflowerblue;
+}
+#temp{
+    background-color: rgb(237, 100, 164);
+}
+#humidity{
+    background-color: rgb(232, 237, 100);
+}
+#wind{
+    background-color: rgb(169, 166, 194);
+}
